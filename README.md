@@ -1,6 +1,6 @@
 # professional-readme-generator
 
-  [![License: BSD](https://img.shields.io/pypi/l/PypI.svg)](https://opensource.org/licenses/BSD-2-Clause)
+  [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
 
 ## Table of Contents
@@ -23,9 +23,9 @@ git clone git@github.com:ryann127/professional-readme-generator.git
 
  ## License
 
- This application is protected under BSD
+ This application is protected under Apache
 
- https://opensource.org/licenses/BSD-2-Clause
+ https://opensource.org/licenses/Apache-2.0
 
  ## Contributing
  
