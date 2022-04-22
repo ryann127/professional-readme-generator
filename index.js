@@ -17,11 +17,6 @@ const questions = [
     },
     {
         type: "input",
-        message: "What are the installation instructions for your project?",
-        name: "installation",
-    },
-    {
-        type: "input",
         message: "What is the link to clone the repo?",
         name: "clone",
     },

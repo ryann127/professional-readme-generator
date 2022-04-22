@@ -50,7 +50,7 @@ function generateMarkdown(data) {
  ${data.description}
 
  ## Installation
- ${data.installation}
+git clone ${data.clone}
 
  ## Usage
  ${data.usage}
@@ -72,12 +72,12 @@ function generateMarkdown(data) {
  - Create a New Pull Request
 
  Features will be merged depending on review
- 
+
  ## Tests
  ${data.test}
 
  ## Questions
- For any questions, please reach me, ${data.author}, at either ${data.userEmail} and/or ${data.userName}
+ For any questions, please reach me, ${data.author}, at either ${data.userEmail} and/or my GitHub ${data.userName}
 
 
 `;

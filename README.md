@@ -16,10 +16,10 @@
  This project uses node and JavaScript to generate README files per project accordingly
 
  ## Installation
- git clone --> git@github.com:ryann127/professional-readme-generator.git
+git clone git@github.com:ryann127/professional-readme-generator.git
 
  ## Usage
-  When prompted for information, such as title and description, the information is added to sections of the README with their corresponding titles. A license is given depending on response and the badge/link is updated accordingly. Personal information is appended in questions section.
+ When prompted for information, such as title and description, the information is added to sections of the README with their corresponding titles. A license is given depending on response and the badge/link is updated accordingly. Personal information is appended in questions section.
 
  ## License
 
@@ -29,18 +29,15 @@
 
  ## Contributing
  
- You will need to create a pull request to contribute further to this application. 
- Fork the Repo, 
- 
- Create a Feature Branch, 
- 
- Commit New Feature, 
- 
- Push Branch, 
- 
- Create New Pull Request, 
- Feature will be merged depending on review
+ You will need to create a pull request to contribute further to this application
 
+ - Fork the Repo
+ - Create a Feature Branch
+ - Commit your New Feature
+ - Push your Branch
+ - Create a New Pull Request
+
+ Features will be merged depending on review
 
  ## Tests
  N/A
