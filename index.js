@@ -40,10 +40,7 @@ const questions = [
         name: "license",
         message: "Please select the license you used for this project.",
         choices: [
-            "GNU AGPLv3",
             "GNU GPLv3",
-            "GNU LGPLv3",
-            "Mozilla",
             "MIT",
             "Apache",
             "Boost",
@@ -51,7 +48,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please enter any testing protocols you used for your project?",
+        message: "Please enter any testing protocols you used for your project:",
         name: "test",
     },
     {
@@ -73,7 +70,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeToFile(fileName, data, (err) => err ? console.log(err) : console.log('Success!'))
+    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('Success!'))
 };
 
 // TODO: Create a function to initialize app
@@ -81,7 +78,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((responses) => {
-            writeToFile('./README.md', generateMarkdown(responses))
+            writeToFile('.README.md', generateMarkdown(responses))
         })
 
 }
