@@ -22,18 +22,13 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please tell us about how you use your project:",
-        name: "usage",
-    },
-    {
-        type: "input",
-        message: "Please list the contributing guidelines:",
-        name: "contribution",
-    },
-    {
-        type: "input",
         message: "What is the link to clone the repo?",
         name: "clone",
+    },
+    {
+        type: "input",
+        message: "Please tell us about how you use your project:",
+        name: "usage",
     },
     {
         type: "list",
@@ -78,7 +73,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((responses) => {
-            writeToFile('.README.md', generateMarkdown(responses))
+            writeToFile('README.md', generateMarkdown(responses))
         })
 
 }

@@ -62,8 +62,17 @@ function generateMarkdown(data) {
  ${renderLicenseLink(data.license)}
 
  ## Contributing
- ${data.contribution}
+ 
+ You will need to create a pull request to contribute further to this application
 
+ - Fork the Repo
+ - Create a Feature Branch
+ - Commit your New Feature
+ - Push your Branch
+ - Create a New Pull Request
+
+ Features will be merged depending on review
+ 
  ## Tests
  ${data.test}
 
