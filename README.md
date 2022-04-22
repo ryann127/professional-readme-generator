@@ -1,6 +1,6 @@
 # professional-readme-generator
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: BSD](https://img.shields.io/pypi/l/PypI.svg)](https://opensource.org/licenses/BSD-2-Clause)
   
 
 ## Table of Contents
@@ -23,9 +23,9 @@ git clone git@github.com:ryann127/professional-readme-generator.git
 
  ## License
 
- This application is protected under GNU GPLv3
+ This application is protected under BSD
 
- https://opensource.org/licensesGNU GPLv3
+ https://opensource.org/licenses/BSD-2-Clause
 
  ## Contributing
  
@@ -43,6 +43,6 @@ git clone git@github.com:ryann127/professional-readme-generator.git
  N/A
 
  ## Questions
- For any questions, please reach me, Ryann Goldberg, at either ryann.goldberg127@gmail.com and/or ryann127
+ For any questions, please reach me, Ryann Goldberg, at either ryann.goldberg127@gmail.com and/or my GitHub account, ryann127
 
 

@@ -33,7 +33,7 @@ const questions = [
             "GNU GPLv3",
             "MIT",
             "Apache",
-            "Boost",
+            "BSD",
         ],
     },
     {

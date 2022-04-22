@@ -6,9 +6,9 @@ function renderLicenseBadge(license) {
       } else if (license === "MIT") {
         return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
       } else if (license === "Apache") {
-        return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+        return "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
       } else {
-        return "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+        return "[![License: BSD](https://img.shields.io/pypi/l/PypI.svg)](https://opensource.org/licenses/BSD-2-Clause)";
       }
 }
 
@@ -16,10 +16,18 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     if (license !== "None") {
-        return (`https://opensource.org/licenses${license}`)
+        if(license === "GNU GPLv3") {
+            return (`https://opensource.org/licenses/GPL-3.0`)
+        } else if(license === "MIT"){
+            return (`https://opensource.org/licenses/MIT`)
+        } else if(license === "Apache"){
+            return (`https://opensource.org/licenses/Apache-2.0`)
+        } else {
+            return (`https://opensource.org/licenses/BSD-2-Clause`);
+        }
     };
     return '';
-}
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -77,7 +85,7 @@ git clone ${data.clone}
  ${data.test}
 
  ## Questions
- For any questions, please reach me, ${data.author}, at either ${data.userEmail} and/or my GitHub ${data.userName}
+ For any questions, please reach me, ${data.author}, at either ${data.userEmail} and/or my GitHub account, ${data.userName}
 
 
 `;
