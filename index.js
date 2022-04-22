@@ -27,6 +27,11 @@ const questions = [
     },
     {
         type: "input",
+        message: "Please list the contributing guidelines:",
+        name: "contribution",
+    },
+    {
+        type: "input",
         message: "What is the link to clone the repo?",
         name: "clone",
     },
@@ -51,20 +56,19 @@ const questions = [
     },
     {
         type: "input",
-        name: "author",
         message: "What is your name?",
+        name: "author",
     },
     {
         type: "input",
-        name: "userName",
         message: "What is your GitHub username?",
+        name: "userName",
     },
     {
         type: "input",
-        name: "userEmail",
         message: "What is your email?",
+        name: "userEmail",
     }
-    // may need to add contributing section
 ];
 
 // TODO: Create a function to write README file
