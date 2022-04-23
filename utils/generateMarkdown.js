@@ -39,7 +39,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (license !== "None") {
-        return (`This application is protected under ${license}`)
+        return (`This application uses the ${license}. For more information, please follow the below link.`)
     }
     return '';
 };
@@ -64,7 +64,9 @@ function generateMarkdown(data) {
  ${data.description}
 
  ## Installation
-git clone ${data.clone}
+git clone the following repository: 
+
+    ${data.clone}
 
  ## Usage
  ${data.usage}
@@ -91,7 +93,7 @@ git clone ${data.clone}
  ${data.test}
 
  ## Questions
- For any questions, please reach me, ${data.author}, at either ${data.userEmail} and/or my GitHub account, ${data.userName}
+ For any questions, please reach me, ${data.author}, at either ${data.userEmail} and/or my GitHub account, [${data.userName}](https://github.com/${data.userName})
 
 
 `;

@@ -1,6 +1,6 @@
 # professional-readme-generator
 
-  [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 
 ## Table of Contents
@@ -16,16 +16,18 @@
  This project uses node and JavaScript to generate README files per project accordingly
 
  ## Installation
-git clone git@github.com:ryann127/professional-readme-generator.git
+git clone the following repository: 
+
+    git@github.com:ryann127/professional-readme-generator.git
 
  ## Usage
- When prompted for information, such as title and description, the information is added to sections of the README with their corresponding titles. A license is given depending on response and the badge/link is updated accordingly. Personal information is appended in questions section.
+ Run npm install/inquirer to install inquirer then run "node index.js" to start app. When prompted for information, such as title and description, the information is added to sections of the README with their corresponding titles. A license is given depending on response and the badge/link is updated accordingly. Personal information is appended in questions section.
 
  ## License
 
- This application is protected under Apache
+ This application uses the MIT. For more information, please follow the below link.
 
- https://opensource.org/licenses/Apache-2.0
+ https://opensource.org/licenses/MIT
 
  ## Contributing
  
@@ -43,6 +45,6 @@ git clone git@github.com:ryann127/professional-readme-generator.git
  N/A
 
  ## Questions
- For any questions, please reach me, Ryann Goldberg, at either ryann.goldberg127@gmail.com and/or my GitHub account, ryann127
+ For any questions, please reach me, Ryann Goldberg, at either ryann.goldberg127@gmail.com and/or my GitHub account, [ryann127](https://github.com/ryann127)
 
 
