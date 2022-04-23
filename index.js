@@ -12,7 +12,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Please enter a one-sentence description of your project:",
+        message: "Please enter a brief description of your project:",
         name: "description",
     },
     {
@@ -35,6 +35,11 @@ const questions = [
             "Apache",
             "BSD",
         ],
+    },
+    {
+        type: "input",
+        message: "What are the instructions to contribute to your project?",
+        name: "contribution",
     },
     {
         type: "input",

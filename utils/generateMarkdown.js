@@ -39,7 +39,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
     if (license !== "None") {
-        return (`This application uses the ${license}. For more information, please follow the below link.`)
+        return (`This application uses the ${license} license. For more information, please follow the below link.`)
     }
     return '';
 };
@@ -70,7 +70,7 @@ git clone the following repository:
 
  ## Usage
  ${data.usage}
-
+ 
  ## License
 
  ${renderLicenseSection(data.license)}
@@ -78,16 +78,7 @@ git clone the following repository:
  ${renderLicenseLink(data.license)}
 
  ## Contributing
- 
- You will need to create a pull request to contribute further to this application
-
- - Fork the Repo
- - Create a Feature Branch
- - Commit your New Feature
- - Push your Branch
- - Create a New Pull Request
-
- Features will be merged depending on review
+ ${data.contribution}
 
  ## Tests
  ${data.test}
